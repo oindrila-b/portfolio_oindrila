@@ -5,9 +5,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./assets/background.png');
+  overflow: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: "Semi-Bold";
+  src: local("Caveat-SemiBold")
+  url("./fonts/static/Caveat-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Bold";
+  src: local("Caveat-Bold")
+  url("./fonts/static/Caveat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Regular";
+  src: local("Caveat-Regular")
+  url("./fonts/static/Caveat-Regular.ttf");
 }
