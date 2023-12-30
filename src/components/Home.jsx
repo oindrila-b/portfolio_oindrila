@@ -5,12 +5,14 @@ export const Home = () => {
     return (
         <div className='container'>
             <NavLink to={"/"} style={{ textDecoration: 'none' }}>
+                <div className='title-container'>
                 <div className='title'>
-                    Oindrila Banerjee
+                    ob_
+                </div>
                 </div>
             </NavLink>
             <div>
-            
+               
             </div>
         </div>
     );
