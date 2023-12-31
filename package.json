@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@mui/icons-material": "^5.15.2",
+    "@mui/material": "^5.15.2",
     "@react-spring/parallax": "^9.7.3",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -11,6 +13,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-plx": "^2.1.2",
+    "react-pro-sidebar": "^1.1.0-alpha.1",
     "react-router-dom": "^6.21.1",
     "react-scripts": "5.0.1",
     "react-scroll-parallax": "^3.4.5",

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import './css/SideNavBar.css';
-import home_icon from '../assets/home_icon.svg'
-import about_me from '../assets/about_me.svg'
-import work_exp from '../assets/work_exp.svg'
-import projects from '../assets/projects.svg'
-import contact from '../assets/contact.svg'
+import home from '../assets/home.png'
+import aboutme from '../assets/aboutme.png'
+import work_exp from '../assets/work.png'
+import projects from '../assets/projects.png'
+import contact from '../assets/contact.png'
 import { NavLink } from "react-router-dom";
 
 export const SideNavBar = () => {
@@ -19,10 +19,10 @@ export const SideNavBar = () => {
         <div className="container">
             <div className="sidebar-container">
                 <div className="logo">
-                <img src={home_icon} alt="Home"/>
+                <img src={home} alt="Home"/>
                 </div>
                 <div className="logo">
-                <img src={about_me} alt="About Me"/>
+                <img src={aboutme} alt="About Me"/>
                 </div>
                 <div className="logo">
                 <img src={work_exp} alt="Work"/>

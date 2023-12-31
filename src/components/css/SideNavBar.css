@@ -3,27 +3,21 @@
 }
 
 .container :active {
-    border-right: 4px solid var(--white);
-
-    img {
-        filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
-    }
+    border-right: 4px solid var(--white); 
 }
 
 .sidebar-container {
     background-color: #113946;
-    width: 3.5rem;
-    height: 80vh;
-    margin-top: 6rem;
+    width: 3.2rem;
+    height: 60vh;
+    margin-top: 8rem;
     margin-left: 1.9rem;
     border-radius: 30px;
     padding: 1rem 0;
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-
     position: relative;
 }
 
@@ -31,15 +25,22 @@
 
 .logo {
     width: 2rem;
+    height: 2em;
+
 }
 
-.logo img {
-    width: 100%;
+ img {
+    width: 1.5rem;
     height: auto;
-
+    margin-left: 0.3em;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
   }
 
-.logo :hover {
-    transition: all 1.5s;
-    transform: rotateY(360deg);
+
+.logo img:hover{
+    -webkit-transform: scale(1.3);
+    transform: translateY(-5px);
 }

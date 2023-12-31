@@ -38,12 +38,12 @@
 
 .title-container {
   background-color: #113946;
-  width: 3em;
+  width: 2.7em;
   height: 2.5em;
   margin: 2em;
   justify-content: center;
   text-align: center;
   position: fixed;
   color: white;
-  border-radius: 20px;
+  border-radius: 30px;
 }
