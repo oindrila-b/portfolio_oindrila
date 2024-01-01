@@ -1,27 +1,20 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import {Home} from './components/Home.jsx'
-import {About} from './components/About.jsx'
-import {WorkExperience} from './components/WorkExperience.jsx'
-import {Projects} from './components/Projects.jsx'
-import {Contact} from './components/Contact.jsx'
-
-import './App.css';
-import { SideNavBar } from "./components/SideNavBar.jsx";
+import './App.scss';
+import Navbar from './components/navbar/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <SideNavBar/>
-      <BrowserRouter>
-      <Routes>
-      <Route path="/" element={<Home/>}/>
-      <Route path="/aboutme" element={<About/>}/>
-      <Route path="/experience" element={<WorkExperience/>}/>
-      <Route path="/projects" element={<Projects/>}/>
-      <Route path="/contact" element={<Contact/>}/>
-      </Routes>
-      </BrowserRouter>
-      
+    <div>
+      <section>
+        <Navbar/>
+      </section>
+      <section>Parallax</section>
+      <section>AboutMe</section>
+      <section>Parallax</section>
+      <section>Project 1</section>
+      <section>Project 2</section>
+      <section>Project 3</section>
+      <section>Project 4</section>
+      <section>contact</section>
     </div>
   );
 }
