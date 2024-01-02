@@ -1,0 +1,45 @@
+.hero {
+    height: calc(100vh - 100px);
+    background: linear-gradient(180deg,#322653, #7258bb );
+    overflow: hidden;
+    position: relative;
+    color: #FFDBC3;
+
+    .wrapper {
+        max-width: 1366px;
+        height: 100%;
+        margin: auto;
+
+        .textContainer {
+            height: 100%;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+
+            img {
+               width:  50px;
+            }
+        }
+    }
+
+    .imageContainer {
+        height: 100%;
+        position: absolute;
+        top: 7.5em;
+        right:8em;
+    }
+
+
+    .movingTextContainer {
+        position: absolute;
+        font-size: 40vh;
+        bottom: -50px;
+        white-space: nowrap;
+        color: #3d246c49;
+        width: 50%;
+        font-weight: bold;
+    }
+
+}
