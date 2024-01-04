@@ -8,7 +8,7 @@ const Skill = ({name, x, y}) => {
     return (
         <motion.div 
         className="skill1"
-        whileHover={{scale:1.1}}
+        whileHover={{scale:1.1, boxShadow: "3px 3px 3px  #9883cf"}}
         initial={{x:0,y:0}}
         whileInView={{x:x,y:y}}
         transition={{duration:1.5}}
