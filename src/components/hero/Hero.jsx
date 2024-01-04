@@ -1,10 +1,11 @@
 import '../hero/Hero.scss'
 import { TypeAnimation } from 'react-type-animation';
 import me from '../../assets/ME.png'
+import meAnimated from '../../assets/animation4.json'
 import scroll from '../../assets/scrollDown.png'
 import React from 'react'
-
 import {motion} from 'framer-motion'
+import Lottie from 'react-lottie';
 
 
 const textVariant = {
@@ -91,7 +92,7 @@ const Hero = () => {
                 Java SpringBoot MySQL Python Git ReactJS LLD NodeJS 
             </motion.div>
             <div className="imageContainer">
-                <img src={me} alt='' style={{ width: "38em", height: "40em" }} />
+                <Lottie options={{loop:true, autoplay:true, animationData:meAnimated, rendererSettings:'svg'}}/>
             </div>
         </div>
     )

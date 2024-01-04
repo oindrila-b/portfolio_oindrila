@@ -5,11 +5,13 @@
     align-items: center;
     background-color: #8062D6;
     color: #BB9CC0;
+    
 
 
     .bg {
         position: fixed;
         top: 25px;
+        z-index: 999;
         left: 20px;
         bottom: 0;
         width: 310px;
@@ -45,6 +47,7 @@
         background-color: #FFDBC3;
         color: #67729D;
         border: none;
+        z-index: 999;
         cursor: pointer;
     }
 }
