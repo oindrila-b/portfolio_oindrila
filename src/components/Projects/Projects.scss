@@ -1,0 +1,84 @@
+.projects {
+    position: relative;
+
+    .progress {
+
+        position: sticky;
+        top: 0;
+        left: 0;
+        padding: 50px;
+        text-align: center;
+        font-size: 40px;
+
+        .progressBar {
+            height: 8px;
+            background-color: wheat;
+            border-radius: 50em;
+        }
+    }
+
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    width: 95%;
+    margin: 5em;
+
+    .wrapper {
+        max-width: 1366px;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+
+        .image-container {
+            flex: 1;
+            height: 50%;
+
+            img {
+                width: 25em;
+                height: 25em;
+                object-fit: cover;
+                border-radius: 5em;
+
+            }
+        }
+
+
+        .txt {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            
+
+            h2{
+                font-size: 72px;
+            }
+
+            p{
+                width: 20em;
+                font-size: 20px;
+            }
+
+            button {
+                background-color: antiquewhite;
+                border: none;
+                border-radius: 10px;
+                padding: 10px;
+                width: 200px;
+                color: #322653;
+                cursor: pointer;
+            }
+
+
+        }
+    }
+
+
+}
