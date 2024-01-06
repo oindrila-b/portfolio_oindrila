@@ -16,7 +16,7 @@ function App() {
       <section id='AboutMe'><Parallax type="About"/></section>
       <section><AboutMe/></section>
       <section id='Projects'><Parallax type="projects"/></section>
-      <section><Projects/></section>
+      <section style={{height:"430vh"}}><Projects/></section>
       <section id='Contact'>
         <Contact/>
       </section>
